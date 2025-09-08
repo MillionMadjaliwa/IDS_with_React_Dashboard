@@ -41,44 +41,90 @@ class NetworkFeatureExtractor:
         self.host_history = {}
         
     def extract_features(self, packet) -> Dict[str, float]:
+        # Initialisation avec toutes les features attendues
         features = {
-            'duration': 0.0, 'src_bytes': 0, 'dst_bytes': 0, 'land': 0, 'wrong_fragment': 0, 'urgent': 0,
-            'hot': 0, 'num_failed_logins': 0, 'logged_in': 0, 'num_compromised': 0, 'root_shell': 0,
-            'su_attempted': 0, 'num_root': 0, 'num_file_creations': 0, 'num_shells': 0,
-            'num_access_files': 0, 'num_outbound_cmds': 0, 'is_host_login': 0, 'is_guest_login': 0,
-            'count': 1, 'srv_count': 1, 'serror_rate': 0.0, 'srv_serror_rate': 0.0,
-            'rerror_rate': 0.0, 'srv_rerror_rate': 0.0, 'same_srv_rate': 1.0, 'diff_srv_rate': 0.0,
-            'srv_diff_host_rate': 0.0, 'dst_host_count': 1, 'dst_host_srv_count': 1,
-            'dst_host_same_srv_rate': 1.0, 'dst_host_diff_srv_rate': 0.0, 'dst_host_same_src_port_rate': 1.0,
-            'dst_host_srv_diff_host_rate': 0.0, 'dst_host_serror_rate': 0.0, 'dst_host_srv_serror_rate': 0.0,
-            'dst_host_rerror_rate': 0.0, 'dst_host_srv_rerror_rate': 0.0,
+            'duration': 0.0,
+            'protocol_type': 'other',
+            'service': 'other',
+            'flag': 'NONE',
+            'src_bytes': 0,
+            'dst_bytes': 0,
+            'land': 0,
+            'wrong_fragment': 0,
+            'urgent': 0,
+            'hot': 0,
+            'num_failed_logins': 0,
+            'logged_in': 0,
+            'num_compromised': 0,
+            'root_shell': 0,
+            'su_attempted': 0,
+            'num_root': 0,
+            'num_file_creations': 0,
+            'num_shells': 0,
+            'num_access_files': 0,
+            'num_outbound_cmds': 0,
+            'is_host_login': 0,
+            'is_guest_login': 0,
+            'count': 1,
+            'srv_count': 1,
+            'serror_rate': 0.0,
+            'srv_serror_rate': 0.0,
+            'rerror_rate': 0.0,
+            'srv_rerror_rate': 0.0,
+            'same_srv_rate': 1.0,
+            'diff_srv_rate': 0.0,
+            'srv_diff_host_rate': 0.0,
+            'dst_host_count': 1,
+            'dst_host_srv_count': 1,
+            'dst_host_same_srv_rate': 1.0,
+            'dst_host_diff_srv_rate': 0.0,
+            'dst_host_same_src_port_rate': 1.0,
+            'dst_host_srv_diff_host_rate': 0.0,
+            'dst_host_serror_rate': 0.0,
+            'dst_host_srv_serror_rate': 0.0,
+            'dst_host_rerror_rate': 0.0,
+            'dst_host_srv_rerror_rate': 0.0,
         }
-        
+
         try:
             if IP in packet:
                 ip_packet = packet[IP]
                 src_ip = ip_packet.src
                 dst_ip = ip_packet.dst
-                
+
                 features['land'] = 1 if src_ip == dst_ip else 0
                 features['src_bytes'] = len(packet)
-                
+
                 protocol = self._get_protocol(packet)
                 service = self._get_service(packet)
-                
+                features['protocol_type'] = protocol
+                features['service'] = service
+
                 self._update_connection_history(src_ip, dst_ip, service, protocol)
                 features.update(self._calculate_traffic_features(src_ip, dst_ip, service))
                 features.update(self._calculate_host_features(dst_ip, service))
-                
+
                 if TCP in packet:
                     tcp_packet = packet[TCP]
                     features['urgent'] = 1 if tcp_packet.flags.U else 0
+                    # Détermination du flag principal TCP
+                    flags = []
+                    if hasattr(tcp_packet, 'flags'):
+                        if tcp_packet.flags.S: flags.append('SYN')
+                        if tcp_packet.flags.A: flags.append('ACK')
+                        if tcp_packet.flags.F: flags.append('FIN')
+                        if tcp_packet.flags.R: flags.append('RST')
+                        if tcp_packet.flags.P: flags.append('PSH')
+                        if tcp_packet.flags.U: flags.append('URG')
+                    features['flag'] = flags[0] if flags else 'NONE'
                     if hasattr(ip_packet, 'frag') and ip_packet.frag > 0:
                         features['wrong_fragment'] = 1
-                        
+                else:
+                    features['flag'] = 'NONE'
+
         except Exception as e:
             logging.warning(f"Erreur lors de l'extraction des caractéristiques: {e}")
-            
+
         return features
     
     def _get_protocol(self, packet) -> str:
@@ -295,7 +341,28 @@ class SentinelPacketCapture:
     
     def _predict_anomaly(self, features: Dict[str, float]) -> Dict[str, Any]:
         try:
-            feature_vector = np.array([list(features.values())]).reshape(1, -1)
+            # Ordre exact des colonnes attendu par le modèle
+            feature_order = [
+                "duration", "protocol_type", "service", "flag", "src_bytes", "dst_bytes", "land", "wrong_fragment",
+                "urgent", "hot", "num_failed_logins", "logged_in", "num_compromised", "root_shell", "su_attempted",
+                "num_root", "num_file_creations", "num_shells", "num_access_files", "num_outbound_cmds",
+                "is_host_login", "is_guest_login", "count", "srv_count", "serror_rate", "srv_serror_rate",
+                "rerror_rate", "srv_rerror_rate", "same_srv_rate", "diff_srv_rate", "srv_diff_host_rate",
+                "dst_host_count", "dst_host_srv_count", "dst_host_same_srv_rate", "dst_host_diff_srv_rate",
+                "dst_host_same_src_port_rate", "dst_host_srv_diff_host_rate", "dst_host_serror_rate",
+                "dst_host_srv_serror_rate", "dst_host_rerror_rate", "dst_host_srv_rerror_rate"
+            ]
+            # Encodage simple pour les features catégorielles (protocol_type, service, flag)
+            # Ici, on fait un one-hot encoding minimal pour éviter les erreurs (à adapter selon le modèle réel)
+            # Pour la démo, on remplace les valeurs catégorielles par leur hash
+            feature_vector = []
+            for col in feature_order:
+                val = features.get(col, 0)
+                if col in ["protocol_type", "service", "flag"]:
+                    # Encodage simple (hash)
+                    val = hash(str(val)) % 1000
+                feature_vector.append(val)
+            feature_vector = np.array([feature_vector]).reshape(1, -1)
             prediction = self.model.predict(feature_vector)[0]
             prediction_proba = self.model.predict_proba(feature_vector)[0]
             anomaly_score = prediction_proba[1] if len(prediction_proba) > 1 else prediction_proba[0]

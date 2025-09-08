@@ -80,6 +80,30 @@ export interface WebSocketMessage {
 }
 
 class RealPacketCaptureService {
+  // Récupère les infos du modèle via WebSocket
+  getModelInfo(): Promise<any> {
+    return new Promise((resolve, reject) => {
+      if (!this.websocket || this.websocket.readyState !== WebSocket.OPEN) {
+        reject('WebSocket non connectée');
+        return;
+      }
+      const handler = (event: MessageEvent) => {
+        try {
+          const msg = JSON.parse(event.data);
+          if (msg.type === 'model_info') {
+            this.websocket?.removeEventListener('message', handler);
+            resolve(msg.data);
+          }
+        } catch {}
+      };
+      this.websocket.addEventListener('message', handler);
+      this.websocket.send(JSON.stringify({ type: 'get_model_info' }));
+      setTimeout(() => {
+        this.websocket?.removeEventListener('message', handler);
+        reject('Timeout');
+      }, 3000);
+    });
+  }
   private websocket: WebSocket | null = null;
   private listeners: ((packet: NetworkPacket) => void)[] = [];
   private statsListeners: ((stats: CaptureStats) => void)[] = [];
