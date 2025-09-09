@@ -223,17 +223,27 @@ export function useRealPacketCapture(
       p.payloadPreview.toLowerCase().includes(query.toLowerCase())
     ), [packets]);
 
-  // Configuration des listeners au montage
+  // Au montage, toujours tenter la connexion réelle d'abord
   useEffect(() => {
-    // Ajouter les listeners pour le service réel
     realPacketCaptureService.addPacketListener(handleNewPacket);
     realPacketCaptureService.addStatsListener(handleStatsUpdate);
     realPacketCaptureService.addInterfaceListener(handleInterfacesUpdate);
     realPacketCaptureService.addConnectionListener(handleConnectionStatusChange);
 
-    // Démarrage automatique en mode simulation
-    console.log('🤖 Démarrage en mode simulation - Toutes les fonctionnalités disponibles');
-    initializeFallback();
+    // Essayer de se connecter au service Python
+    (async () => {
+      setConnectionStatus('connecting');
+      try {
+        await realPacketCaptureService.connect();
+        setUsingFallback(false);
+        setConnectionStatus('connected');
+        console.log('✅ Connexion au service Python réussie');
+      } catch (error) {
+        // Si échec, démarrer la simulation
+        console.log('⚠️ Service Python non disponible, démarrage du mode simulation');
+        initializeFallback();
+      }
+    })();
 
     // Nettoyage au démontage
     return () => {
@@ -241,7 +251,6 @@ export function useRealPacketCapture(
       realPacketCaptureService.removeStatsListener(handleStatsUpdate);
       realPacketCaptureService.removeInterfaceListener(handleInterfacesUpdate);
       realPacketCaptureService.removeConnectionListener(handleConnectionStatusChange);
-      
       if (fallbackService.current) {
         fallbackService.current.destroy();
         fallbackService.current = null;

@@ -1,3 +1,15 @@
+import { FallbackSimulationService } from "./fallback-simulation-service";
+// Singleton simulation fallback
+const fallbackSimulation = new FallbackSimulationService();
+
+let simulationActive = false;
+export interface ModelInfo {
+  name: string;
+  version: string;
+  features: string[];
+  hyperparameters: Record<string, any>;
+  is_dummy?: boolean;
+}
 /**
  * Service de capture de paquets réels via WebSocket
  * Se connecte au service Python pour recevoir les données en temps réel
@@ -80,27 +92,48 @@ export interface WebSocketMessage {
 }
 
 class RealPacketCaptureService {
-  // Récupère les infos du modèle via WebSocket
-  getModelInfo(): Promise<any> {
+  // Appelle ceci si la connexion réelle échoue
+  private startSimulationIfNeeded() {
+    if (!simulationActive) {
+      fallbackSimulation.start();
+      simulationActive = true;
+    }
+  }
+
+  // Appelle ceci si la connexion réelle réussit
+  private stopSimulationIfNeeded() {
+    if (simulationActive) {
+      fallbackSimulation.stop();
+      simulationActive = false;
+    }
+  }
+  // Récupère dynamiquement les infos du modèle via WebSocket
+  async getModelInfo(): Promise<ModelInfo | null> {
+    if (!this.websocket || this.websocket.readyState !== WebSocket.OPEN) {
+      throw new Error('WebSocket non connectée');
+    }
     return new Promise((resolve, reject) => {
-      if (!this.websocket || this.websocket.readyState !== WebSocket.OPEN) {
-        reject('WebSocket non connectée');
+      const ws = this.websocket;
+      if (!ws) {
+        reject(new Error('WebSocket non connectée'));
         return;
       }
       const handler = (event: MessageEvent) => {
         try {
           const msg = JSON.parse(event.data);
           if (msg.type === 'model_info') {
-            this.websocket?.removeEventListener('message', handler);
+            ws.removeEventListener('message', handler);
             resolve(msg.data);
           }
-        } catch {}
+        } catch (e) {
+          // ignore
+        }
       };
-      this.websocket.addEventListener('message', handler);
-      this.websocket.send(JSON.stringify({ type: 'get_model_info' }));
+      ws.addEventListener('message', handler);
+      ws.send(JSON.stringify({ type: 'get_model_info' }));
       setTimeout(() => {
-        this.websocket?.removeEventListener('message', handler);
-        reject('Timeout');
+        ws.removeEventListener('message', handler);
+        reject(new Error('Timeout model_info'));
       }, 3000);
     });
   }
@@ -135,10 +168,21 @@ class RealPacketCaptureService {
   connect(url?: string): Promise<void> {
     return new Promise((resolve, reject) => {
       const wsUrl = url || this.config.url;
-      
-      if (this.websocket?.readyState === WebSocket.OPEN) {
-        resolve();
-        return;
+
+      // Always create a new WebSocket if not open, even after previous disconnect/error
+      if (this.websocket) {
+        if (this.websocket.readyState === WebSocket.OPEN) {
+          this.stopSimulationIfNeeded();
+          resolve();
+          return;
+        }
+        // Clean up previous event handlers and instance
+        this.websocket.onopen = null;
+        this.websocket.onmessage = null;
+        this.websocket.onclose = null;
+        this.websocket.onerror = null;
+        try { this.websocket.close(); } catch {}
+        this.websocket = null;
       }
 
       this.setConnectionStatus('connecting');
@@ -152,6 +196,7 @@ class RealPacketCaptureService {
           this.setConnectionStatus('connected');
           this.reconnectAttempts = 0;
           this.startHeartbeat();
+          this.stopSimulationIfNeeded();
           resolve();
         };
 
@@ -162,7 +207,7 @@ class RealPacketCaptureService {
         this.websocket.onclose = (event) => {
           this.setConnectionStatus('disconnected');
           this.stopHeartbeat();
-          
+
           // Messages d'erreur spécifiques selon le code de fermeture
           if (event.code === 1006) {
             console.log('⚠️ Service Python fermé ou non disponible');
@@ -171,15 +216,16 @@ class RealPacketCaptureService {
           } else {
             console.log('🔌 Connexion fermée, code:', event.code);
           }
-          
+
           // Ne pas essayer de se reconnecter automatiquement pour éviter les erreurs
           // L'utilisateur peut manuellement essayer de se reconnecter
+          this.startSimulationIfNeeded();
         };
 
         this.websocket.onerror = (error) => {
           console.log('⚠️ Service Python non disponible sur', wsUrl);
           this.setConnectionStatus('error');
-          
+
           // Créer un message d'erreur informatif
           let errorMessage = 'Service Python non disponible';
           if (wsUrl.includes('localhost') || wsUrl.includes('127.0.0.1')) {
@@ -187,7 +233,8 @@ class RealPacketCaptureService {
           } else {
             errorMessage = `Service non accessible à ${wsUrl}. Basculement vers le mode simulation.`;
           }
-          
+
+          this.startSimulationIfNeeded();
           reject(new Error(errorMessage));
         };
 
@@ -195,6 +242,7 @@ class RealPacketCaptureService {
         setTimeout(() => {
           if (this.websocket?.readyState !== WebSocket.OPEN) {
             this.websocket?.close();
+            this.startSimulationIfNeeded();
             reject(new Error('Timeout de connexion'));
           }
         }, 10000); // 10 secondes
@@ -202,6 +250,7 @@ class RealPacketCaptureService {
       } catch (error) {
         console.error('❌ Erreur lors de la création de la connexion WebSocket:', error);
         this.setConnectionStatus('error');
+        this.startSimulationIfNeeded();
         reject(error);
       }
     });

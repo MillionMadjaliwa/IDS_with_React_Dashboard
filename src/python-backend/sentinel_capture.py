@@ -201,6 +201,16 @@ class NetworkFeatureExtractor:
         return features
 
 class SentinelPacketCapture:
+    def get_model_info(self) -> dict:
+        """Retourne les infos du modèle chargé (nom, version, features, hyperparams, etc.)"""
+        info = {
+            'name': type(self.model).__name__ if self.model else 'None',
+            'version': getattr(self.model, 'version', 'N/A'),
+            'features': getattr(self.model, 'feature_names_in_', []),
+            'hyperparameters': self.model.get_params() if self.model else {},
+            'is_dummy': getattr(self.model, 'is_dummy', False),
+        }
+        return info
     """Service principal de capture et d'analyse de paquets"""
     
     def __init__(self, config: Dict[str, Any]):
@@ -252,6 +262,18 @@ class SentinelPacketCapture:
         y = np.random.choice([0, 1], 1000, p=[0.9, 0.1])
         model = RandomForestClassifier(n_estimators=100, random_state=42)
         model.fit(X, y)
+        model.is_dummy = True
+        model.version = 'dummy-1.0'
+        model.feature_names_in_ = [
+            "duration", "protocol_type", "service", "flag", "src_bytes", "dst_bytes", "land", "wrong_fragment",
+            "urgent", "hot", "num_failed_logins", "logged_in", "num_compromised", "root_shell", "su_attempted",
+            "num_root", "num_file_creations", "num_shells", "num_access_files", "num_outbound_cmds",
+            "is_host_login", "is_guest_login", "count", "srv_count", "serror_rate", "srv_serror_rate",
+            "rerror_rate", "srv_rerror_rate", "same_srv_rate", "diff_srv_rate", "srv_diff_host_rate",
+            "dst_host_count", "dst_host_srv_count", "dst_host_same_srv_rate", "dst_host_diff_srv_rate",
+            "dst_host_same_src_port_rate", "dst_host_srv_diff_host_rate", "dst_host_serror_rate",
+            "dst_host_srv_serror_rate", "dst_host_rerror_rate", "dst_host_srv_rerror_rate"
+        ]
         self.logger.info("Modèle factice créé pour la démonstration")
         return model
     
@@ -433,12 +455,22 @@ class SentinelPacketCapture:
         self.logger.info(f"Nouvelle connexion WebSocket: {client_addr}")
         self.connected_clients.add(websocket)
         try:
-            async for message in websocket:
-                pass
-        except (websockets.exceptions.ConnectionClosedOK, EOFError):
-            self.logger.info(f"Connexion fermée normalement: {client_addr}")
-        except websockets.exceptions.ConnectionClosedError as e:
-            self.logger.debug(f"Erreur WebSocket ignorée {client_addr}: {e}")
+            try:
+                async for message in websocket:
+                    # Si le client demande les infos du modèle
+                    try:
+                        data = json.loads(message)
+                        if isinstance(data, dict) and data.get('type') == 'get_model_info':
+                            model_info = self.get_model_info()
+                            await websocket.send(json.dumps({'type': 'model_info', 'data': model_info}))
+                    except Exception as e:
+                        self.logger.warning(f"Erreur lors du traitement du message WebSocket: {e}")
+            except (websockets.exceptions.InvalidMessage, EOFError):
+                self.logger.info(f"Connexion non-WebSocket ou fermée prématurément: {client_addr}")
+            except (websockets.exceptions.ConnectionClosedOK,):
+                self.logger.info(f"Connexion fermée normalement: {client_addr}")
+            except websockets.exceptions.ConnectionClosedError as e:
+                self.logger.debug(f"Erreur WebSocket ignorée {client_addr}: {e}")
         finally:
             self.connected_clients.discard(websocket)
             self.logger.info(f"Connexion fermée: {client_addr}")

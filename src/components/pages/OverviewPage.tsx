@@ -1,3 +1,4 @@
+import { useWebSocketStatus } from "../../hooks/WebSocketProvider";
 import { Card, CardContent, CardHeader, CardTitle } from "../ui/card";
 import { KpiTile } from "../ui/kpi-tile";
 import { SeverityBadge } from "../ui/severity-badge";
@@ -18,6 +19,7 @@ import { generateTrafficData, generateAlerts, generateRealtimeMetrics, modelInfo
 import { useState, useEffect } from "react";
 
 export function OverviewPage() {
+  const { isConnected, connectionStatus, reconnect } = useWebSocketStatus();
   const [metrics, setMetrics] = useState(generateRealtimeMetrics());
   const [trafficData] = useState(() => generateTrafficData(10));
   const [recentAlerts] = useState(() => generateAlerts(8));
@@ -75,6 +77,20 @@ export function OverviewPage() {
 
   return (
     <div className="space-y-6">
+      {/* Connexion Python Service Status & Reconnect */}
+      <div className="flex items-center gap-4 mb-2">
+        <span className={isConnected ? "text-green-600" : "text-red-600"}>
+          {isConnected ? "Service Python connecté" : "Service Python déconnecté"}
+        </span>
+        {!isConnected && (
+          <button
+            onClick={reconnect}
+            className="px-3 py-1 rounded bg-blue-600 text-white hover:bg-blue-700 text-sm"
+          >
+            Reconnecter le service Python
+          </button>
+        )}
+      </div>
       <div className="flex items-center justify-between">
         <div>
           <h1 className="text-2xl font-semibold">Vue d'ensemble</h1>
@@ -91,7 +107,6 @@ export function OverviewPage() {
       {/* KPI Cards */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
         <KpiTile
-          key="packets-kpi"
           title="Paquets/min"
           value={metrics.packetsPerMinute.toLocaleString()}
           delta={{
@@ -102,7 +117,6 @@ export function OverviewPage() {
           sparkline={metrics.packetsPerSecond.slice(-15)}
         />
         <KpiTile
-          key="src-ips-kpi"
           title="IP Sources Uniques"
           value={metrics.uniqueSrcIps}
           delta={{
@@ -112,7 +126,6 @@ export function OverviewPage() {
           }}
         />
         <KpiTile
-          key="dst-ips-kpi"
           title="IP Destinations Uniques"
           value={metrics.uniqueDstIps}
           delta={{
@@ -122,7 +135,6 @@ export function OverviewPage() {
           }}
         />
         <KpiTile
-          key="services-kpi"
           title="Services Actifs"
           value={metrics.activeServices}
           delta={{
@@ -145,8 +157,8 @@ export function OverviewPage() {
           <CardContent>
             <div className="space-y-4">
               {Object.entries(severityBreakdown).map(([severity, count]) => {
-                const maxCount = Math.max(...Object.values(severityBreakdown), 1);
-                const percentage = (count / maxCount) * 100;
+                const maxCount = Math.max(...Object.values(severityBreakdown) as number[], 1);
+                const percentage = ((count as number) / maxCount) * 100;
                 
                 return (
                   <div key={`severity-${severity}`} className="flex items-center justify-between">
@@ -284,8 +296,8 @@ export function OverviewPage() {
           </CardHeader>
           <CardContent>
             <div className="space-y-3">
-              {recentAlerts.slice(0, 5).map((alert) => (
-                <div key={alert.id} className="flex items-center justify-between p-3 rounded-lg border">
+              {recentAlerts.slice(0, 5).map((alert, idx) => (
+                <div key={alert.id + '-' + idx} className="flex items-center justify-between p-3 rounded-lg border">
                   <div className="flex items-center gap-3">
                     <SeverityBadge severity={alert.severity} />
                     <div>

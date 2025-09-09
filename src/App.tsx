@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { ThemeProvider } from "./hooks/use-theme";
+import { WebSocketProvider } from "./hooks/WebSocketProvider";
 import { AppLayout } from "./components/layout/AppLayout";
 import { ErrorBoundary } from "./components/ui/error-boundary";
 import { OverviewPage } from "./components/pages/OverviewPage";
@@ -43,13 +44,15 @@ export default function App() {
   return (
     <ErrorBoundary>
       <ThemeProvider>
-        <div className="min-h-screen bg-background font-sans antialiased">
-          <AppLayout currentPage={currentPage} onPageChange={setCurrentPage}>
-            <ErrorBoundary>
-              {renderCurrentPage()}
-            </ErrorBoundary>
-          </AppLayout>
-        </div>
+        <WebSocketProvider>
+          <div className="min-h-screen bg-background font-sans antialiased">
+            <AppLayout currentPage={currentPage} onPageChange={setCurrentPage}>
+              <ErrorBoundary>
+                {renderCurrentPage()}
+              </ErrorBoundary>
+            </AppLayout>
+          </div>
+        </WebSocketProvider>
       </ThemeProvider>
     </ErrorBoundary>
   );

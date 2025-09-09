@@ -148,3 +148,1167 @@
 2025-09-08 00:47:10,508 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('127.0.0.1', 2661)
 2025-09-08 01:21:27,290 - websockets.server - INFO - connection open
 2025-09-08 01:21:27,304 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('127.0.0.1', 4134)
+2025-09-08 22:48:10,678 - SentinelCapture - INFO - Modèle chargé (factice pour la démo)
+2025-09-08 22:48:12,098 - SentinelCapture - INFO - Modèle factice créé pour la démonstration
+2025-09-08 22:48:12,149 - SentinelCapture - INFO - Démarrage du serveur WebSocket sur localhost:8765
+2025-09-08 22:48:12,152 - SentinelCapture - INFO - Démarrage de la capture sur l'interface: par défaut
+2025-09-08 22:48:12,154 - SentinelCapture - INFO - Filtre appliqué: net 192.168.0.0/16 or net 10.0.0.0/8 or net 172.16.0.0/12
+2025-09-08 22:48:12,156 - SentinelCapture - INFO - Début de la capture de paquets...
+2025-09-08 22:48:12,284 - websockets.server - INFO - server listening on [::1]:8765
+2025-09-08 22:48:12,285 - websockets.server - INFO - server listening on 127.0.0.1:8765
+2025-09-08 22:48:12,287 - SentinelCapture - INFO - Serveur WebSocket démarré
+2025-09-08 22:48:48,062 - websockets.server - INFO - connection open
+2025-09-08 22:48:48,065 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('127.0.0.1', 51982)
+2025-09-08 22:49:45,330 - SentinelCapture - INFO - Connexion fermée: ('127.0.0.1', 51982)
+2025-09-08 22:49:54,568 - websockets.server - INFO - connection open
+2025-09-08 22:49:54,570 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('127.0.0.1', 51999)
+2025-09-08 23:05:04,683 - SentinelCapture - INFO - Connexion fermée: ('127.0.0.1', 51999)
+2025-09-08 23:05:12,955 - SentinelCapture - INFO - Arrêt de la capture...
+2025-09-08 23:05:17,960 - SentinelCapture - INFO - Service arrêté.
+2025-09-08 23:05:17,964 - websockets.server - INFO - server closing
+2025-09-08 23:05:17,968 - websockets.server - INFO - server closed
+2025-09-09 00:01:46,902 - SentinelCapture - INFO - Modèle chargé (factice pour la démo)
+2025-09-09 00:01:48,753 - SentinelCapture - INFO - Modèle factice créé pour la démonstration
+2025-09-09 00:01:48,868 - SentinelCapture - INFO - Démarrage du serveur WebSocket sur localhost:8765
+2025-09-09 00:01:48,869 - SentinelCapture - INFO - Démarrage de la capture sur l'interface: par défaut
+2025-09-09 00:01:48,870 - SentinelCapture - INFO - Filtre appliqué: net 192.168.0.0/16 or net 10.0.0.0/8 or net 172.16.0.0/12
+2025-09-09 00:01:48,888 - SentinelCapture - INFO - Début de la capture de paquets...
+2025-09-09 00:01:49,623 - websockets.server - INFO - server listening on 127.0.0.1:8765
+2025-09-09 00:01:49,627 - websockets.server - INFO - server listening on [::1]:8765
+2025-09-09 00:01:49,628 - SentinelCapture - INFO - Serveur WebSocket démarré
+2025-09-09 00:02:08,702 - SentinelCapture - INFO - Arrêt de la capture...
+2025-09-09 00:02:08,716 - SentinelCapture - INFO - Fin de la capture de paquets
+2025-09-09 00:02:08,717 - SentinelCapture - INFO - Service arrêté.
+2025-09-09 00:02:08,718 - websockets.server - INFO - server closing
+2025-09-09 00:02:08,719 - websockets.server - INFO - server closed
+2025-09-09 00:06:04,934 - SentinelCapture - INFO - Modèle chargé (factice pour la démo)
+2025-09-09 00:06:06,114 - SentinelCapture - INFO - Modèle factice créé pour la démonstration
+2025-09-09 00:06:06,136 - SentinelCapture - INFO - Démarrage du serveur WebSocket sur localhost:8765
+2025-09-09 00:06:06,137 - SentinelCapture - INFO - Démarrage de la capture sur l'interface: par défaut
+2025-09-09 00:06:06,138 - SentinelCapture - INFO - Filtre appliqué: net 192.168.0.0/16 or net 10.0.0.0/8 or net 172.16.0.0/12
+2025-09-09 00:06:06,139 - SentinelCapture - INFO - Début de la capture de paquets...
+2025-09-09 00:06:06,658 - websockets.server - INFO - server listening on 127.0.0.1:8765
+2025-09-09 00:06:06,660 - websockets.server - INFO - server listening on [::1]:8765
+2025-09-09 00:06:06,661 - SentinelCapture - INFO - Serveur WebSocket démarré
+2025-09-09 00:06:18,623 - websockets.server - INFO - connection open
+2025-09-09 00:06:18,629 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('127.0.0.1', 8799)
+2025-09-09 00:17:55,534 - SentinelCapture - INFO - Connexion fermée: ('127.0.0.1', 8799)
+2025-09-09 00:17:55,563 - SentinelCapture - ERROR - Erreur dans broadcast_data: <websockets.asyncio.server.ServerConnection object at 0x000001F680091550>
+2025-09-09 05:20:47,314 - SentinelCapture - INFO - Modèle chargé (factice pour la démo)
+2025-09-09 05:20:48,554 - SentinelCapture - INFO - Modèle factice créé pour la démonstration
+2025-09-09 05:20:48,575 - SentinelCapture - INFO - Démarrage du serveur WebSocket sur localhost:8765
+2025-09-09 05:20:48,576 - SentinelCapture - INFO - Démarrage de la capture sur l'interface: par défaut
+2025-09-09 05:20:48,577 - SentinelCapture - INFO - Filtre appliqué: net 192.168.0.0/16 or net 10.0.0.0/8 or net 172.16.0.0/12
+2025-09-09 05:20:48,579 - SentinelCapture - INFO - Début de la capture de paquets...
+2025-09-09 05:20:49,430 - websockets.server - INFO - server listening on [::1]:8765
+2025-09-09 05:20:49,435 - websockets.server - INFO - server listening on 127.0.0.1:8765
+2025-09-09 05:20:49,439 - SentinelCapture - INFO - Serveur WebSocket démarré
+2025-09-09 05:21:10,438 - websockets.server - INFO - connection open
+2025-09-09 05:21:10,448 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('127.0.0.1', 12731)
+2025-09-09 05:21:10,692 - websockets.server - INFO - connection open
+2025-09-09 05:21:10,710 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('127.0.0.1', 12732)
+2025-09-09 05:23:20,996 - SentinelCapture - INFO - Connexion fermée: ('127.0.0.1', 12732)
+2025-09-09 05:23:21,051 - SentinelCapture - ERROR - Erreur dans broadcast_data: <websockets.asyncio.server.ServerConnection object at 0x000002ABD7418CD0>
+2025-09-09 05:23:21,062 - SentinelCapture - INFO - Connexion fermée: ('127.0.0.1', 12731)
+2025-09-09 05:23:27,502 - websockets.server - INFO - connection open
+2025-09-09 05:23:27,509 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('127.0.0.1', 13489)
+2025-09-09 05:23:44,586 - SentinelCapture - INFO - Connexion fermée: ('127.0.0.1', 13489)
+2025-09-09 05:24:13,821 - websockets.server - INFO - connection open
+2025-09-09 05:24:13,842 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('127.0.0.1', 13746)
+2025-09-09 05:24:13,955 - websockets.server - INFO - connection open
+2025-09-09 05:24:13,977 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('127.0.0.1', 13747)
+2025-09-09 05:31:17,475 - SentinelCapture - INFO - Connexion fermée: ('127.0.0.1', 13746)
+2025-09-09 05:31:17,506 - SentinelCapture - INFO - Connexion fermée: ('127.0.0.1', 13747)
+2025-09-09 05:31:52,715 - websockets.server - INFO - connection open
+2025-09-09 05:31:52,741 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('127.0.0.1', 2391)
+2025-09-09 05:32:07,751 - SentinelCapture - INFO - Connexion fermée: ('127.0.0.1', 2391)
+2025-09-09 05:34:57,924 - websockets.server - INFO - connection open
+2025-09-09 05:34:57,937 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('127.0.0.1', 3431)
+2025-09-09 05:37:23,709 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 05:37:23,722 - SentinelCapture - INFO - Connexion fermée: ('127.0.0.1', 3431)
+2025-09-09 05:37:26,480 - websockets.server - INFO - connection open
+2025-09-09 05:37:26,492 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('127.0.0.1', 4226)
+2025-09-09 05:37:31,357 - SentinelCapture - INFO - Connexion fermée: ('127.0.0.1', 4226)
+2025-09-09 05:46:22,599 - websockets.server - INFO - connection open
+2025-09-09 05:46:22,610 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('127.0.0.1', 7099)
+2025-09-09 05:47:01,039 - SentinelCapture - INFO - Connexion fermée: ('127.0.0.1', 7099)
+2025-09-09 05:47:10,307 - websockets.server - INFO - connection open
+2025-09-09 05:47:10,334 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('127.0.0.1', 7356)
+2025-09-09 05:54:54,083 - SentinelCapture - INFO - Connexion fermée: ('127.0.0.1', 7356)
+2025-09-09 05:55:01,806 - websockets.server - INFO - connection open
+2025-09-09 05:55:01,834 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('127.0.0.1', 9872)
+2025-09-09 05:59:06,876 - websockets.server - INFO - connection open
+2025-09-09 05:59:06,882 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('127.0.0.1', 11153)
+2025-09-09 05:59:16,458 - websockets.server - INFO - connection open
+2025-09-09 05:59:16,477 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('127.0.0.1', 11208)
+2025-09-09 05:59:26,871 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 05:59:26,899 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 05:59:26,903 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 05:59:26,909 - SentinelCapture - INFO - Connexion fermée: ('127.0.0.1', 11208)
+2025-09-09 05:59:26,921 - SentinelCapture - INFO - Connexion fermée: ('127.0.0.1', 11153)
+2025-09-09 05:59:26,930 - SentinelCapture - INFO - Connexion fermée: ('127.0.0.1', 9872)
+2025-09-09 05:59:34,019 - websockets.server - INFO - connection open
+2025-09-09 05:59:34,026 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('127.0.0.1', 11310)
+2025-09-09 06:08:12,736 - websockets.server - INFO - connection open
+2025-09-09 06:08:12,749 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('127.0.0.1', 14122)
+2025-09-09 06:08:19,886 - websockets.server - INFO - connection open
+2025-09-09 06:08:19,918 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('127.0.0.1', 14164)
+2025-09-09 06:08:35,332 - SentinelCapture - INFO - Connexion fermée: ('127.0.0.1', 14164)
+2025-09-09 06:08:35,343 - SentinelCapture - INFO - Connexion fermée: ('127.0.0.1', 11310)
+2025-09-09 06:08:35,345 - SentinelCapture - INFO - Connexion fermée: ('127.0.0.1', 14122)
+2025-09-09 06:08:35,348 - SentinelCapture - ERROR - Erreur dans broadcast_data: <websockets.asyncio.server.ServerConnection object at 0x000002ABD73D8B00>
+2025-09-09 06:08:42,450 - websockets.server - INFO - connection open
+2025-09-09 06:08:42,461 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('127.0.0.1', 14291)
+2025-09-09 06:13:45,756 - SentinelCapture - INFO - Arrêt de la capture...
+2025-09-09 06:13:45,790 - SentinelCapture - INFO - Fin de la capture de paquets
+2025-09-09 06:13:45,793 - SentinelCapture - INFO - Service arrêté.
+2025-09-09 06:13:45,795 - websockets.server - INFO - server closing
+2025-09-09 06:13:46,446 - SentinelCapture - INFO - Connexion fermée: ('127.0.0.1', 14291)
+2025-09-09 06:13:46,449 - websockets.server - INFO - server closed
+2025-09-09 06:14:27,911 - SentinelCapture - INFO - Modèle chargé (factice pour la démo)
+2025-09-09 06:14:29,697 - SentinelCapture - INFO - Modèle factice créé pour la démonstration
+2025-09-09 06:14:29,730 - SentinelCapture - INFO - Démarrage du serveur WebSocket sur localhost:8765
+2025-09-09 06:14:29,732 - SentinelCapture - INFO - Démarrage de la capture sur l'interface: par défaut
+2025-09-09 06:14:29,737 - SentinelCapture - INFO - Filtre appliqué: net 192.168.0.0/16 or net 10.0.0.0/8 or net 172.16.0.0/12
+2025-09-09 06:14:29,741 - SentinelCapture - INFO - Début de la capture de paquets...
+2025-09-09 06:14:29,789 - websockets.server - INFO - server listening on [::1]:8765
+2025-09-09 06:14:29,791 - websockets.server - INFO - server listening on 127.0.0.1:8765
+2025-09-09 06:14:29,793 - SentinelCapture - INFO - Serveur WebSocket démarré
+2025-09-09 06:14:30,062 - websockets.server - INFO - connection open
+2025-09-09 06:14:30,071 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('127.0.0.1', 2282)
+2025-09-09 06:14:30,169 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:14:30,242 - SentinelCapture - INFO - Connexion fermée: ('127.0.0.1', 2282)
+2025-09-09 06:14:30,248 - websockets.server - INFO - connection open
+2025-09-09 06:14:30,255 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 2298, 0, 0)
+2025-09-09 06:14:30,269 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:14:30,341 - SentinelCapture - INFO - Connexion fermée: ('::1', 2298, 0, 0)
+2025-09-09 06:14:31,768 - websockets.server - INFO - connection open
+2025-09-09 06:14:31,770 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 2309, 0, 0)
+2025-09-09 06:14:31,780 - SentinelCapture - INFO - Connexion fermée: ('::1', 2309, 0, 0)
+2025-09-09 06:14:34,706 - websockets.server - INFO - connection open
+2025-09-09 06:14:34,713 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 2322, 0, 0)
+2025-09-09 06:14:34,789 - SentinelCapture - INFO - Connexion fermée: ('::1', 2322, 0, 0)
+2025-09-09 06:14:35,291 - websockets.server - ERROR - opening handshake failed
+Traceback (most recent call last):
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\http11.py", line 138, in parse
+    request_line = yield from parse_line(read_line)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\http11.py", line 309, in parse_line
+    line = yield from read_line(MAX_LINE_LENGTH)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\streams.py", line 46, in read_line
+    raise EOFError(f"stream ends after {p} bytes, before end of line")
+EOFError: stream ends after 0 bytes, before end of line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\server.py", line 545, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\http11.py", line 140, in parse
+    raise EOFError("connection closed while reading HTTP request line") from exc
+EOFError: connection closed while reading HTTP request line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2025-09-09 06:14:35,367 - websockets.server - ERROR - opening handshake failed
+Traceback (most recent call last):
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\http11.py", line 138, in parse
+    request_line = yield from parse_line(read_line)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\http11.py", line 309, in parse_line
+    line = yield from read_line(MAX_LINE_LENGTH)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\streams.py", line 46, in read_line
+    raise EOFError(f"stream ends after {p} bytes, before end of line")
+EOFError: stream ends after 0 bytes, before end of line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\server.py", line 545, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\http11.py", line 140, in parse
+    raise EOFError("connection closed while reading HTTP request line") from exc
+EOFError: connection closed while reading HTTP request line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2025-09-09 06:24:08,463 - SentinelCapture - INFO - Modèle chargé (factice pour la démo)
+2025-09-09 06:24:11,125 - SentinelCapture - INFO - Modèle factice créé pour la démonstration
+2025-09-09 06:24:11,474 - SentinelCapture - INFO - Démarrage du serveur WebSocket sur localhost:8765
+2025-09-09 06:24:11,478 - SentinelCapture - INFO - Démarrage de la capture sur l'interface: par défaut
+2025-09-09 06:24:11,489 - SentinelCapture - INFO - Filtre appliqué: net 192.168.0.0/16 or net 10.0.0.0/8 or net 172.16.0.0/12
+2025-09-09 06:24:11,857 - SentinelCapture - INFO - Début de la capture de paquets...
+2025-09-09 06:24:12,699 - websockets.server - INFO - server listening on [::1]:8765
+2025-09-09 06:24:12,704 - websockets.server - INFO - server listening on 127.0.0.1:8765
+2025-09-09 06:24:12,707 - SentinelCapture - INFO - Serveur WebSocket démarré
+2025-09-09 06:24:13,686 - websockets.server - INFO - connection open
+2025-09-09 06:24:13,707 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7893, 0, 0)
+2025-09-09 06:24:13,742 - websockets.server - INFO - connection open
+2025-09-09 06:24:13,758 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7894, 0, 0)
+2025-09-09 06:24:13,994 - websockets.server - INFO - connection open
+2025-09-09 06:24:14,019 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7895, 0, 0)
+2025-09-09 06:24:14,041 - SentinelCapture - INFO - Connexion fermée: ('::1', 7893, 0, 0)
+2025-09-09 06:24:14,061 - websockets.server - INFO - connection open
+2025-09-09 06:24:14,102 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7896, 0, 0)
+2025-09-09 06:24:14,116 - SentinelCapture - INFO - Connexion fermée: ('::1', 7894, 0, 0)
+2025-09-09 06:24:14,137 - SentinelCapture - ERROR - Erreur dans broadcast_data: <websockets.asyncio.server.ServerConnection object at 0x0000024CE6109480>
+2025-09-09 06:24:14,154 - websockets.server - INFO - connection open
+2025-09-09 06:24:14,161 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7897, 0, 0)
+2025-09-09 06:24:14,174 - SentinelCapture - INFO - Connexion fermée: ('::1', 7895, 0, 0)
+2025-09-09 06:24:14,185 - websockets.server - INFO - connection open
+2025-09-09 06:24:14,205 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7898, 0, 0)
+2025-09-09 06:24:14,218 - SentinelCapture - INFO - Connexion fermée: ('::1', 7896, 0, 0)
+2025-09-09 06:24:14,265 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:14,281 - websockets.server - INFO - connection open
+2025-09-09 06:24:14,285 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7903, 0, 0)
+2025-09-09 06:24:14,286 - SentinelCapture - INFO - Connexion fermée: ('::1', 7897, 0, 0)
+2025-09-09 06:24:14,320 - websockets.server - INFO - connection open
+2025-09-09 06:24:14,328 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7904, 0, 0)
+2025-09-09 06:24:14,350 - websockets.server - INFO - connection open
+2025-09-09 06:24:14,363 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7905, 0, 0)
+2025-09-09 06:24:14,394 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:14,405 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:14,412 - SentinelCapture - INFO - Connexion fermée: ('::1', 7898, 0, 0)
+2025-09-09 06:24:14,415 - websockets.server - INFO - connection open
+2025-09-09 06:24:14,426 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7906, 0, 0)
+2025-09-09 06:24:14,433 - SentinelCapture - INFO - Connexion fermée: ('::1', 7903, 0, 0)
+2025-09-09 06:24:14,447 - websockets.server - INFO - connection open
+2025-09-09 06:24:14,449 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7907, 0, 0)
+2025-09-09 06:24:14,465 - websockets.server - INFO - connection open
+2025-09-09 06:24:14,480 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7908, 0, 0)
+2025-09-09 06:24:14,486 - SentinelCapture - INFO - Connexion fermée: ('::1', 7904, 0, 0)
+2025-09-09 06:24:14,502 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:14,512 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:14,525 - SentinelCapture - INFO - Connexion fermée: ('::1', 7905, 0, 0)
+2025-09-09 06:24:14,534 - websockets.server - INFO - connection open
+2025-09-09 06:24:14,544 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7913, 0, 0)
+2025-09-09 06:24:14,552 - SentinelCapture - INFO - Connexion fermée: ('::1', 7906, 0, 0)
+2025-09-09 06:24:14,559 - websockets.server - INFO - connection open
+2025-09-09 06:24:14,563 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7914, 0, 0)
+2025-09-09 06:24:14,599 - websockets.server - INFO - connection open
+2025-09-09 06:24:14,610 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7915, 0, 0)
+2025-09-09 06:24:14,614 - SentinelCapture - INFO - Connexion fermée: ('::1', 7907, 0, 0)
+2025-09-09 06:24:14,632 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:14,647 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:14,673 - SentinelCapture - INFO - Connexion fermée: ('::1', 7908, 0, 0)
+2025-09-09 06:24:14,684 - websockets.server - INFO - connection open
+2025-09-09 06:24:14,702 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7916, 0, 0)
+2025-09-09 06:24:14,708 - SentinelCapture - INFO - Connexion fermée: ('::1', 7913, 0, 0)
+2025-09-09 06:24:14,725 - websockets.server - INFO - connection open
+2025-09-09 06:24:14,733 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7917, 0, 0)
+2025-09-09 06:24:14,754 - websockets.server - INFO - connection open
+2025-09-09 06:24:14,801 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7918, 0, 0)
+2025-09-09 06:24:14,814 - SentinelCapture - INFO - Connexion fermée: ('::1', 7914, 0, 0)
+2025-09-09 06:24:14,840 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:14,854 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:14,870 - SentinelCapture - INFO - Connexion fermée: ('::1', 7915, 0, 0)
+2025-09-09 06:24:14,883 - websockets.server - INFO - connection open
+2025-09-09 06:24:14,900 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7919, 0, 0)
+2025-09-09 06:24:14,910 - SentinelCapture - INFO - Connexion fermée: ('::1', 7916, 0, 0)
+2025-09-09 06:24:14,928 - websockets.server - INFO - connection open
+2025-09-09 06:24:14,933 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7921, 0, 0)
+2025-09-09 06:24:14,949 - websockets.server - INFO - connection open
+2025-09-09 06:24:14,956 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7922, 0, 0)
+2025-09-09 06:24:14,963 - SentinelCapture - INFO - Connexion fermée: ('::1', 7917, 0, 0)
+2025-09-09 06:24:14,991 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:14,997 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:15,001 - SentinelCapture - INFO - Connexion fermée: ('::1', 7918, 0, 0)
+2025-09-09 06:24:15,015 - websockets.server - INFO - connection open
+2025-09-09 06:24:15,026 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7923, 0, 0)
+2025-09-09 06:24:15,036 - SentinelCapture - INFO - Connexion fermée: ('::1', 7919, 0, 0)
+2025-09-09 06:24:15,063 - websockets.server - INFO - connection open
+2025-09-09 06:24:15,075 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7924, 0, 0)
+2025-09-09 06:24:15,094 - websockets.server - INFO - connection open
+2025-09-09 06:24:15,098 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7925, 0, 0)
+2025-09-09 06:24:15,100 - SentinelCapture - INFO - Connexion fermée: ('::1', 7921, 0, 0)
+2025-09-09 06:24:15,131 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:15,154 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:15,216 - SentinelCapture - INFO - Connexion fermée: ('::1', 7922, 0, 0)
+2025-09-09 06:24:15,233 - websockets.server - INFO - connection open
+2025-09-09 06:24:15,254 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7926, 0, 0)
+2025-09-09 06:24:15,256 - SentinelCapture - INFO - Connexion fermée: ('::1', 7923, 0, 0)
+2025-09-09 06:24:15,299 - websockets.server - INFO - connection open
+2025-09-09 06:24:15,315 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7927, 0, 0)
+2025-09-09 06:24:15,354 - websockets.server - INFO - connection open
+2025-09-09 06:24:15,365 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7928, 0, 0)
+2025-09-09 06:24:15,399 - SentinelCapture - INFO - Connexion fermée: ('::1', 7924, 0, 0)
+2025-09-09 06:24:15,416 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:15,435 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:15,514 - SentinelCapture - INFO - Connexion fermée: ('::1', 7925, 0, 0)
+2025-09-09 06:24:15,550 - websockets.server - INFO - connection open
+2025-09-09 06:24:15,554 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7929, 0, 0)
+2025-09-09 06:24:15,556 - SentinelCapture - INFO - Connexion fermée: ('::1', 7926, 0, 0)
+2025-09-09 06:24:15,576 - websockets.server - INFO - connection open
+2025-09-09 06:24:15,588 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7930, 0, 0)
+2025-09-09 06:24:15,601 - websockets.server - INFO - connection open
+2025-09-09 06:24:15,606 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7931, 0, 0)
+2025-09-09 06:24:15,624 - SentinelCapture - INFO - Connexion fermée: ('::1', 7927, 0, 0)
+2025-09-09 06:24:15,627 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:15,641 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:15,737 - SentinelCapture - INFO - Connexion fermée: ('::1', 7928, 0, 0)
+2025-09-09 06:24:15,754 - websockets.server - INFO - connection open
+2025-09-09 06:24:15,781 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7936, 0, 0)
+2025-09-09 06:24:15,789 - SentinelCapture - INFO - Connexion fermée: ('::1', 7929, 0, 0)
+2025-09-09 06:24:15,815 - websockets.server - INFO - connection open
+2025-09-09 06:24:15,827 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7937, 0, 0)
+2025-09-09 06:24:15,855 - websockets.server - INFO - connection open
+2025-09-09 06:24:16,030 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7938, 0, 0)
+2025-09-09 06:24:16,086 - SentinelCapture - INFO - Connexion fermée: ('::1', 7930, 0, 0)
+2025-09-09 06:24:16,097 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:16,104 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:16,125 - SentinelCapture - INFO - Connexion fermée: ('::1', 7931, 0, 0)
+2025-09-09 06:24:16,141 - websockets.server - INFO - connection open
+2025-09-09 06:24:16,147 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7941, 0, 0)
+2025-09-09 06:24:16,157 - SentinelCapture - INFO - Connexion fermée: ('::1', 7936, 0, 0)
+2025-09-09 06:24:16,175 - websockets.server - INFO - connection open
+2025-09-09 06:24:16,184 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7942, 0, 0)
+2025-09-09 06:24:16,212 - websockets.server - INFO - connection open
+2025-09-09 06:24:16,230 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7943, 0, 0)
+2025-09-09 06:24:16,235 - SentinelCapture - INFO - Connexion fermée: ('::1', 7937, 0, 0)
+2025-09-09 06:24:16,250 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:16,253 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:16,284 - SentinelCapture - INFO - Connexion fermée: ('::1', 7938, 0, 0)
+2025-09-09 06:24:16,291 - websockets.server - INFO - connection open
+2025-09-09 06:24:16,328 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7944, 0, 0)
+2025-09-09 06:24:16,330 - SentinelCapture - INFO - Connexion fermée: ('::1', 7941, 0, 0)
+2025-09-09 06:24:16,343 - websockets.server - INFO - connection open
+2025-09-09 06:24:16,379 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7945, 0, 0)
+2025-09-09 06:24:16,396 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:16,404 - websockets.server - INFO - connection open
+2025-09-09 06:24:16,405 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7946, 0, 0)
+2025-09-09 06:24:16,407 - SentinelCapture - INFO - Connexion fermée: ('::1', 7942, 0, 0)
+2025-09-09 06:24:16,429 - SentinelCapture - INFO - Connexion fermée: ('::1', 7943, 0, 0)
+2025-09-09 06:24:16,449 - websockets.server - INFO - connection open
+2025-09-09 06:24:16,462 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7947, 0, 0)
+2025-09-09 06:24:16,472 - SentinelCapture - ERROR - Erreur dans broadcast_data: <websockets.asyncio.server.ServerConnection object at 0x0000024CE610B5C0>
+2025-09-09 06:24:16,474 - websockets.server - INFO - connection open
+2025-09-09 06:24:16,477 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7948, 0, 0)
+2025-09-09 06:24:16,512 - SentinelCapture - INFO - Connexion fermée: ('::1', 7944, 0, 0)
+2025-09-09 06:24:16,540 - SentinelCapture - INFO - Connexion fermée: ('::1', 7945, 0, 0)
+2025-09-09 06:24:16,557 - websockets.server - INFO - connection open
+2025-09-09 06:24:16,566 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7949, 0, 0)
+2025-09-09 06:24:16,579 - SentinelCapture - INFO - Connexion fermée: ('::1', 7946, 0, 0)
+2025-09-09 06:24:16,598 - websockets.server - INFO - connection open
+2025-09-09 06:24:16,605 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7954, 0, 0)
+2025-09-09 06:24:16,615 - SentinelCapture - INFO - Connexion fermée: ('::1', 7947, 0, 0)
+2025-09-09 06:24:16,637 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:16,661 - websockets.server - INFO - connection open
+2025-09-09 06:24:16,668 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7955, 0, 0)
+2025-09-09 06:24:16,683 - SentinelCapture - INFO - Connexion fermée: ('::1', 7948, 0, 0)
+2025-09-09 06:24:16,699 - websockets.server - INFO - connection open
+2025-09-09 06:24:16,714 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7956, 0, 0)
+2025-09-09 06:24:16,737 - websockets.server - INFO - connection open
+2025-09-09 06:24:16,745 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7957, 0, 0)
+2025-09-09 06:24:16,757 - SentinelCapture - INFO - Connexion fermée: ('::1', 7949, 0, 0)
+2025-09-09 06:24:16,770 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:16,778 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:16,787 - SentinelCapture - INFO - Connexion fermée: ('::1', 7954, 0, 0)
+2025-09-09 06:24:16,801 - websockets.server - INFO - connection open
+2025-09-09 06:24:16,810 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7958, 0, 0)
+2025-09-09 06:24:16,817 - SentinelCapture - INFO - Connexion fermée: ('::1', 7955, 0, 0)
+2025-09-09 06:24:16,841 - websockets.server - INFO - connection open
+2025-09-09 06:24:16,866 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7960, 0, 0)
+2025-09-09 06:24:16,883 - websockets.server - INFO - connection open
+2025-09-09 06:24:16,918 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7961, 0, 0)
+2025-09-09 06:24:16,927 - SentinelCapture - INFO - Connexion fermée: ('::1', 7956, 0, 0)
+2025-09-09 06:24:16,942 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:16,960 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:16,984 - SentinelCapture - INFO - Connexion fermée: ('::1', 7957, 0, 0)
+2025-09-09 06:24:17,002 - websockets.server - INFO - connection open
+2025-09-09 06:24:17,013 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7962, 0, 0)
+2025-09-09 06:24:17,017 - SentinelCapture - INFO - Connexion fermée: ('::1', 7958, 0, 0)
+2025-09-09 06:24:17,035 - websockets.server - INFO - connection open
+2025-09-09 06:24:17,047 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7963, 0, 0)
+2025-09-09 06:24:17,074 - websockets.server - INFO - connection open
+2025-09-09 06:24:17,085 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7964, 0, 0)
+2025-09-09 06:24:17,093 - SentinelCapture - INFO - Connexion fermée: ('::1', 7960, 0, 0)
+2025-09-09 06:24:17,110 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:17,124 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:17,136 - SentinelCapture - INFO - Connexion fermée: ('::1', 7961, 0, 0)
+2025-09-09 06:24:17,150 - websockets.server - INFO - connection open
+2025-09-09 06:24:17,160 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7965, 0, 0)
+2025-09-09 06:24:17,167 - SentinelCapture - INFO - Connexion fermée: ('::1', 7962, 0, 0)
+2025-09-09 06:24:17,187 - websockets.server - INFO - connection open
+2025-09-09 06:24:17,200 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7966, 0, 0)
+2025-09-09 06:24:17,239 - websockets.server - INFO - connection open
+2025-09-09 06:24:17,257 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7967, 0, 0)
+2025-09-09 06:24:17,271 - SentinelCapture - INFO - Connexion fermée: ('::1', 7963, 0, 0)
+2025-09-09 06:24:17,293 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:17,307 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:17,312 - SentinelCapture - INFO - Connexion fermée: ('::1', 7964, 0, 0)
+2025-09-09 06:24:17,326 - websockets.server - INFO - connection open
+2025-09-09 06:24:17,341 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7968, 0, 0)
+2025-09-09 06:24:17,349 - SentinelCapture - INFO - Connexion fermée: ('::1', 7965, 0, 0)
+2025-09-09 06:24:17,371 - websockets.server - INFO - connection open
+2025-09-09 06:24:17,381 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7969, 0, 0)
+2025-09-09 06:24:17,418 - websockets.server - INFO - connection open
+2025-09-09 06:24:17,425 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7970, 0, 0)
+2025-09-09 06:24:17,431 - SentinelCapture - INFO - Connexion fermée: ('::1', 7966, 0, 0)
+2025-09-09 06:24:17,451 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:17,465 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:17,490 - SentinelCapture - INFO - Connexion fermée: ('::1', 7967, 0, 0)
+2025-09-09 06:24:17,511 - websockets.server - INFO - connection open
+2025-09-09 06:24:17,530 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7971, 0, 0)
+2025-09-09 06:24:17,536 - SentinelCapture - INFO - Connexion fermée: ('::1', 7968, 0, 0)
+2025-09-09 06:24:17,565 - websockets.server - INFO - connection open
+2025-09-09 06:24:17,589 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7972, 0, 0)
+2025-09-09 06:24:17,609 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:17,633 - websockets.server - INFO - connection open
+2025-09-09 06:24:17,643 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7977, 0, 0)
+2025-09-09 06:24:17,646 - SentinelCapture - INFO - Connexion fermée: ('::1', 7969, 0, 0)
+2025-09-09 06:24:17,662 - SentinelCapture - INFO - Connexion fermée: ('::1', 7970, 0, 0)
+2025-09-09 06:24:17,677 - websockets.server - INFO - connection open
+2025-09-09 06:24:17,683 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7978, 0, 0)
+2025-09-09 06:24:17,691 - SentinelCapture - INFO - Connexion fermée: ('::1', 7971, 0, 0)
+2025-09-09 06:24:17,717 - SentinelCapture - ERROR - Erreur dans broadcast_data: <websockets.asyncio.server.ServerConnection object at 0x0000024CE61D5350>
+2025-09-09 06:24:17,732 - websockets.server - INFO - connection open
+2025-09-09 06:24:17,736 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7979, 0, 0)
+2025-09-09 06:24:17,770 - SentinelCapture - INFO - Connexion fermée: ('::1', 7972, 0, 0)
+2025-09-09 06:24:17,780 - websockets.server - INFO - connection open
+2025-09-09 06:24:17,790 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7980, 0, 0)
+2025-09-09 06:24:17,806 - SentinelCapture - INFO - Connexion fermée: ('::1', 7977, 0, 0)
+2025-09-09 06:24:17,841 - websockets.server - INFO - connection open
+2025-09-09 06:24:17,860 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7981, 0, 0)
+2025-09-09 06:24:17,868 - SentinelCapture - INFO - Connexion fermée: ('::1', 7978, 0, 0)
+2025-09-09 06:24:17,908 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:17,928 - websockets.server - INFO - connection open
+2025-09-09 06:24:17,954 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7982, 0, 0)
+2025-09-09 06:24:17,962 - SentinelCapture - INFO - Connexion fermée: ('::1', 7979, 0, 0)
+2025-09-09 06:24:17,973 - websockets.server - INFO - connection open
+2025-09-09 06:24:18,006 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7983, 0, 0)
+2025-09-09 06:24:18,022 - websockets.server - ERROR - opening handshake failed
+Traceback (most recent call last):
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\http11.py", line 138, in parse
+    request_line = yield from parse_line(read_line)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\http11.py", line 309, in parse_line
+    line = yield from read_line(MAX_LINE_LENGTH)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\streams.py", line 46, in read_line
+    raise EOFError(f"stream ends after {p} bytes, before end of line")
+EOFError: stream ends after 0 bytes, before end of line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\server.py", line 545, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\http11.py", line 140, in parse
+    raise EOFError("connection closed while reading HTTP request line") from exc
+EOFError: connection closed while reading HTTP request line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2025-09-09 06:24:18,218 - websockets.server - ERROR - opening handshake failed
+Traceback (most recent call last):
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\http11.py", line 138, in parse
+    request_line = yield from parse_line(read_line)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\http11.py", line 309, in parse_line
+    line = yield from read_line(MAX_LINE_LENGTH)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\streams.py", line 46, in read_line
+    raise EOFError(f"stream ends after {p} bytes, before end of line")
+EOFError: stream ends after 0 bytes, before end of line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\server.py", line 545, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\http11.py", line 140, in parse
+    raise EOFError("connection closed while reading HTTP request line") from exc
+EOFError: connection closed while reading HTTP request line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2025-09-09 06:24:18,249 - websockets.server - ERROR - opening handshake failed
+Traceback (most recent call last):
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\http11.py", line 138, in parse
+    request_line = yield from parse_line(read_line)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\http11.py", line 309, in parse_line
+    line = yield from read_line(MAX_LINE_LENGTH)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\streams.py", line 46, in read_line
+    raise EOFError(f"stream ends after {p} bytes, before end of line")
+EOFError: stream ends after 0 bytes, before end of line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\server.py", line 545, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\http11.py", line 140, in parse
+    raise EOFError("connection closed while reading HTTP request line") from exc
+EOFError: connection closed while reading HTTP request line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2025-09-09 06:24:18,255 - websockets.server - ERROR - opening handshake failed
+Traceback (most recent call last):
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\http11.py", line 138, in parse
+    request_line = yield from parse_line(read_line)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\http11.py", line 309, in parse_line
+    line = yield from read_line(MAX_LINE_LENGTH)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\streams.py", line 46, in read_line
+    raise EOFError(f"stream ends after {p} bytes, before end of line")
+EOFError: stream ends after 0 bytes, before end of line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\server.py", line 545, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\http11.py", line 140, in parse
+    raise EOFError("connection closed while reading HTTP request line") from exc
+EOFError: connection closed while reading HTTP request line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2025-09-09 06:24:18,275 - websockets.server - ERROR - opening handshake failed
+Traceback (most recent call last):
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\http11.py", line 138, in parse
+    request_line = yield from parse_line(read_line)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\http11.py", line 309, in parse_line
+    line = yield from read_line(MAX_LINE_LENGTH)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\streams.py", line 46, in read_line
+    raise EOFError(f"stream ends after {p} bytes, before end of line")
+EOFError: stream ends after 0 bytes, before end of line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\server.py", line 545, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\http11.py", line 140, in parse
+    raise EOFError("connection closed while reading HTTP request line") from exc
+EOFError: connection closed while reading HTTP request line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2025-09-09 06:24:18,314 - websockets.server - ERROR - opening handshake failed
+Traceback (most recent call last):
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\http11.py", line 138, in parse
+    request_line = yield from parse_line(read_line)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\http11.py", line 309, in parse_line
+    line = yield from read_line(MAX_LINE_LENGTH)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\streams.py", line 46, in read_line
+    raise EOFError(f"stream ends after {p} bytes, before end of line")
+EOFError: stream ends after 0 bytes, before end of line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\server.py", line 545, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\http11.py", line 140, in parse
+    raise EOFError("connection closed while reading HTTP request line") from exc
+EOFError: connection closed while reading HTTP request line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2025-09-09 06:24:18,356 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:18,382 - websockets.server - INFO - connection open
+2025-09-09 06:24:18,404 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7984, 0, 0)
+2025-09-09 06:24:18,417 - SentinelCapture - INFO - Connexion fermée: ('::1', 7980, 0, 0)
+2025-09-09 06:24:18,432 - SentinelCapture - INFO - Connexion fermée: ('::1', 7981, 0, 0)
+2025-09-09 06:24:18,448 - websockets.server - INFO - connection open
+2025-09-09 06:24:18,456 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7985, 0, 0)
+2025-09-09 06:24:18,491 - SentinelCapture - ERROR - Erreur dans broadcast_data: <websockets.asyncio.server.ServerConnection object at 0x0000024CE61D6190>
+2025-09-09 06:24:18,495 - websockets.server - INFO - connection open
+2025-09-09 06:24:18,497 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7986, 0, 0)
+2025-09-09 06:24:18,503 - SentinelCapture - INFO - Connexion fermée: ('::1', 7982, 0, 0)
+2025-09-09 06:24:18,526 - SentinelCapture - INFO - Connexion fermée: ('::1', 7983, 0, 0)
+2025-09-09 06:24:18,539 - websockets.server - INFO - connection open
+2025-09-09 06:24:18,562 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7987, 0, 0)
+2025-09-09 06:24:18,563 - SentinelCapture - INFO - Connexion fermée: ('::1', 7984, 0, 0)
+2025-09-09 06:24:18,585 - websockets.server - INFO - connection open
+2025-09-09 06:24:18,591 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7988, 0, 0)
+2025-09-09 06:24:18,607 - SentinelCapture - INFO - Connexion fermée: ('::1', 7985, 0, 0)
+2025-09-09 06:24:18,631 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:18,647 - websockets.server - INFO - connection open
+2025-09-09 06:24:18,659 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7989, 0, 0)
+2025-09-09 06:24:18,672 - SentinelCapture - INFO - Connexion fermée: ('::1', 7986, 0, 0)
+2025-09-09 06:24:18,705 - websockets.server - INFO - connection open
+2025-09-09 06:24:18,716 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7994, 0, 0)
+2025-09-09 06:24:18,742 - websockets.server - INFO - connection open
+2025-09-09 06:24:18,764 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7995, 0, 0)
+2025-09-09 06:24:18,782 - SentinelCapture - INFO - Connexion fermée: ('::1', 7987, 0, 0)
+2025-09-09 06:24:18,806 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:18,815 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:18,851 - SentinelCapture - INFO - Connexion fermée: ('::1', 7988, 0, 0)
+2025-09-09 06:24:18,862 - websockets.server - INFO - connection open
+2025-09-09 06:24:18,867 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7996, 0, 0)
+2025-09-09 06:24:18,878 - SentinelCapture - INFO - Connexion fermée: ('::1', 7989, 0, 0)
+2025-09-09 06:24:18,909 - websockets.server - INFO - connection open
+2025-09-09 06:24:18,922 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7997, 0, 0)
+2025-09-09 06:24:18,962 - websockets.server - INFO - connection open
+2025-09-09 06:24:18,976 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7998, 0, 0)
+2025-09-09 06:24:18,979 - SentinelCapture - INFO - Connexion fermée: ('::1', 7994, 0, 0)
+2025-09-09 06:24:19,013 - SentinelCapture - INFO - Connexion fermée: ('::1', 7995, 0, 0)
+2025-09-09 06:24:19,018 - websockets.server - INFO - connection open
+2025-09-09 06:24:19,026 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 7999, 0, 0)
+2025-09-09 06:24:19,052 - SentinelCapture - ERROR - Erreur dans broadcast_data: <websockets.asyncio.server.ServerConnection object at 0x0000024CE61D68B0>
+2025-09-09 06:24:19,064 - websockets.server - INFO - connection open
+2025-09-09 06:24:19,113 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8000, 0, 0)
+2025-09-09 06:24:19,132 - SentinelCapture - INFO - Connexion fermée: ('::1', 7996, 0, 0)
+2025-09-09 06:24:19,151 - SentinelCapture - INFO - Connexion fermée: ('::1', 7997, 0, 0)
+2025-09-09 06:24:19,168 - websockets.server - INFO - connection open
+2025-09-09 06:24:19,203 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8001, 0, 0)
+2025-09-09 06:24:19,209 - SentinelCapture - INFO - Connexion fermée: ('::1', 7998, 0, 0)
+2025-09-09 06:24:19,229 - websockets.server - INFO - connection open
+2025-09-09 06:24:19,254 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8002, 0, 0)
+2025-09-09 06:24:19,258 - SentinelCapture - INFO - Connexion fermée: ('::1', 7999, 0, 0)
+2025-09-09 06:24:19,262 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:19,269 - websockets.server - INFO - connection open
+2025-09-09 06:24:19,289 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8003, 0, 0)
+2025-09-09 06:24:19,299 - SentinelCapture - INFO - Connexion fermée: ('::1', 8000, 0, 0)
+2025-09-09 06:24:19,304 - websockets.server - INFO - connection open
+2025-09-09 06:24:19,310 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8004, 0, 0)
+2025-09-09 06:24:19,350 - websockets.server - INFO - connection open
+2025-09-09 06:24:19,357 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8005, 0, 0)
+2025-09-09 06:24:19,372 - SentinelCapture - INFO - Connexion fermée: ('::1', 8001, 0, 0)
+2025-09-09 06:24:19,382 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:19,400 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:19,557 - SentinelCapture - INFO - Connexion fermée: ('::1', 8002, 0, 0)
+2025-09-09 06:24:19,638 - websockets.server - INFO - connection open
+2025-09-09 06:24:19,662 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8006, 0, 0)
+2025-09-09 06:24:19,673 - SentinelCapture - INFO - Connexion fermée: ('::1', 8003, 0, 0)
+2025-09-09 06:24:19,715 - websockets.server - INFO - connection open
+2025-09-09 06:24:19,724 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8007, 0, 0)
+2025-09-09 06:24:19,749 - websockets.server - INFO - connection open
+2025-09-09 06:24:19,776 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8008, 0, 0)
+2025-09-09 06:24:19,780 - SentinelCapture - INFO - Connexion fermée: ('::1', 8004, 0, 0)
+2025-09-09 06:24:19,807 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:19,813 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:19,833 - SentinelCapture - INFO - Connexion fermée: ('::1', 8005, 0, 0)
+2025-09-09 06:24:19,847 - websockets.server - INFO - connection open
+2025-09-09 06:24:19,856 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8013, 0, 0)
+2025-09-09 06:24:19,861 - SentinelCapture - INFO - Connexion fermée: ('::1', 8006, 0, 0)
+2025-09-09 06:24:19,887 - websockets.server - INFO - connection open
+2025-09-09 06:24:19,893 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8014, 0, 0)
+2025-09-09 06:24:19,916 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:19,948 - websockets.server - INFO - connection open
+2025-09-09 06:24:19,959 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8017, 0, 0)
+2025-09-09 06:24:19,976 - SentinelCapture - INFO - Connexion fermée: ('::1', 8007, 0, 0)
+2025-09-09 06:24:19,984 - SentinelCapture - INFO - Connexion fermée: ('::1', 8008, 0, 0)
+2025-09-09 06:24:19,998 - websockets.server - INFO - connection open
+2025-09-09 06:24:20,004 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8018, 0, 0)
+2025-09-09 06:24:20,023 - SentinelCapture - ERROR - Erreur dans broadcast_data: <websockets.asyncio.server.ServerConnection object at 0x0000024CE610B100>
+2025-09-09 06:24:20,037 - websockets.server - INFO - connection open
+2025-09-09 06:24:20,053 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8019, 0, 0)
+2025-09-09 06:24:20,059 - SentinelCapture - INFO - Connexion fermée: ('::1', 8013, 0, 0)
+2025-09-09 06:24:20,084 - SentinelCapture - INFO - Connexion fermée: ('::1', 8014, 0, 0)
+2025-09-09 06:24:20,091 - websockets.server - INFO - connection open
+2025-09-09 06:24:20,099 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8020, 0, 0)
+2025-09-09 06:24:20,111 - SentinelCapture - INFO - Connexion fermée: ('::1', 8017, 0, 0)
+2025-09-09 06:24:20,139 - websockets.server - INFO - connection open
+2025-09-09 06:24:20,153 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8021, 0, 0)
+2025-09-09 06:24:20,162 - SentinelCapture - INFO - Connexion fermée: ('::1', 8018, 0, 0)
+2025-09-09 06:24:20,190 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:20,284 - websockets.server - INFO - connection open
+2025-09-09 06:24:20,301 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8022, 0, 0)
+2025-09-09 06:24:20,310 - SentinelCapture - INFO - Connexion fermée: ('::1', 8019, 0, 0)
+2025-09-09 06:24:20,314 - websockets.server - INFO - connection open
+2025-09-09 06:24:20,316 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8023, 0, 0)
+2025-09-09 06:24:20,328 - websockets.server - INFO - connection open
+2025-09-09 06:24:20,330 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8024, 0, 0)
+2025-09-09 06:24:20,331 - SentinelCapture - INFO - Connexion fermée: ('::1', 8020, 0, 0)
+2025-09-09 06:24:20,335 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:20,338 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:20,412 - SentinelCapture - INFO - Connexion fermée: ('::1', 8021, 0, 0)
+2025-09-09 06:24:20,432 - websockets.server - INFO - connection open
+2025-09-09 06:24:20,480 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8025, 0, 0)
+2025-09-09 06:24:20,527 - SentinelCapture - INFO - Connexion fermée: ('::1', 8022, 0, 0)
+2025-09-09 06:24:20,558 - websockets.server - INFO - connection open
+2025-09-09 06:24:20,573 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8026, 0, 0)
+2025-09-09 06:24:20,599 - websockets.server - INFO - connection open
+2025-09-09 06:24:20,610 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8027, 0, 0)
+2025-09-09 06:24:20,623 - SentinelCapture - INFO - Connexion fermée: ('::1', 8023, 0, 0)
+2025-09-09 06:24:20,628 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:20,635 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:20,702 - SentinelCapture - INFO - Connexion fermée: ('::1', 8024, 0, 0)
+2025-09-09 06:24:20,710 - websockets.server - INFO - connection open
+2025-09-09 06:24:20,723 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8032, 0, 0)
+2025-09-09 06:24:20,728 - SentinelCapture - INFO - Connexion fermée: ('::1', 8025, 0, 0)
+2025-09-09 06:24:20,748 - websockets.server - INFO - connection open
+2025-09-09 06:24:20,758 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8033, 0, 0)
+2025-09-09 06:24:20,794 - websockets.server - INFO - connection open
+2025-09-09 06:24:20,810 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8034, 0, 0)
+2025-09-09 06:24:20,816 - SentinelCapture - INFO - Connexion fermée: ('::1', 8026, 0, 0)
+2025-09-09 06:24:20,858 - SentinelCapture - INFO - Connexion fermée: ('::1', 8027, 0, 0)
+2025-09-09 06:24:20,865 - websockets.server - INFO - connection open
+2025-09-09 06:24:20,872 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8035, 0, 0)
+2025-09-09 06:24:20,891 - SentinelCapture - INFO - Connexion fermée: ('::1', 8032, 0, 0)
+2025-09-09 06:24:20,915 - SentinelCapture - ERROR - Erreur dans broadcast_data: <websockets.asyncio.server.ServerConnection object at 0x0000024CE610A3F0>
+2025-09-09 06:24:20,922 - websockets.server - INFO - connection open
+2025-09-09 06:24:20,928 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8037, 0, 0)
+2025-09-09 06:24:20,953 - SentinelCapture - INFO - Connexion fermée: ('::1', 8033, 0, 0)
+2025-09-09 06:24:20,961 - websockets.server - INFO - connection open
+2025-09-09 06:24:20,967 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8038, 0, 0)
+2025-09-09 06:24:20,977 - SentinelCapture - INFO - Connexion fermée: ('::1', 8034, 0, 0)
+2025-09-09 06:24:21,016 - websockets.server - INFO - connection open
+2025-09-09 06:24:21,029 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8039, 0, 0)
+2025-09-09 06:24:21,038 - SentinelCapture - INFO - Connexion fermée: ('::1', 8035, 0, 0)
+2025-09-09 06:24:21,055 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:21,090 - websockets.server - INFO - connection open
+2025-09-09 06:24:21,109 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8040, 0, 0)
+2025-09-09 06:24:21,112 - SentinelCapture - INFO - Connexion fermée: ('::1', 8037, 0, 0)
+2025-09-09 06:24:21,140 - websockets.server - INFO - connection open
+2025-09-09 06:24:21,150 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8041, 0, 0)
+2025-09-09 06:24:21,177 - websockets.server - INFO - connection open
+2025-09-09 06:24:21,186 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8042, 0, 0)
+2025-09-09 06:24:21,197 - SentinelCapture - INFO - Connexion fermée: ('::1', 8038, 0, 0)
+2025-09-09 06:24:21,211 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:21,227 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:21,249 - SentinelCapture - INFO - Connexion fermée: ('::1', 8039, 0, 0)
+2025-09-09 06:24:21,262 - websockets.server - INFO - connection open
+2025-09-09 06:24:21,324 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8043, 0, 0)
+2025-09-09 06:24:21,333 - SentinelCapture - INFO - Connexion fermée: ('::1', 8040, 0, 0)
+2025-09-09 06:24:21,352 - websockets.server - INFO - connection open
+2025-09-09 06:24:21,363 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8044, 0, 0)
+2025-09-09 06:24:21,386 - websockets.server - INFO - connection open
+2025-09-09 06:24:21,393 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8045, 0, 0)
+2025-09-09 06:24:21,395 - SentinelCapture - INFO - Connexion fermée: ('::1', 8041, 0, 0)
+2025-09-09 06:24:21,406 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:21,417 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:21,435 - SentinelCapture - INFO - Connexion fermée: ('::1', 8042, 0, 0)
+2025-09-09 06:24:21,441 - websockets.server - INFO - connection open
+2025-09-09 06:24:21,456 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8046, 0, 0)
+2025-09-09 06:24:21,460 - SentinelCapture - INFO - Connexion fermée: ('::1', 8043, 0, 0)
+2025-09-09 06:24:21,483 - websockets.server - INFO - connection open
+2025-09-09 06:24:21,506 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8047, 0, 0)
+2025-09-09 06:24:21,509 - websockets.server - INFO - connection open
+2025-09-09 06:24:21,510 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8048, 0, 0)
+2025-09-09 06:24:21,513 - SentinelCapture - INFO - Connexion fermée: ('::1', 8044, 0, 0)
+2025-09-09 06:24:21,531 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:21,540 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:21,577 - SentinelCapture - INFO - Connexion fermée: ('::1', 8045, 0, 0)
+2025-09-09 06:24:21,585 - websockets.server - INFO - connection open
+2025-09-09 06:24:21,598 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8053, 0, 0)
+2025-09-09 06:24:21,603 - SentinelCapture - INFO - Connexion fermée: ('::1', 8046, 0, 0)
+2025-09-09 06:24:21,630 - websockets.server - INFO - connection open
+2025-09-09 06:24:21,643 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8054, 0, 0)
+2025-09-09 06:24:21,659 - websockets.server - INFO - connection open
+2025-09-09 06:24:21,675 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8055, 0, 0)
+2025-09-09 06:24:21,686 - SentinelCapture - INFO - Connexion fermée: ('::1', 8047, 0, 0)
+2025-09-09 06:24:21,717 - SentinelCapture - INFO - Connexion fermée: ('::1', 8048, 0, 0)
+2025-09-09 06:24:21,723 - websockets.server - INFO - connection open
+2025-09-09 06:24:21,748 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8056, 0, 0)
+2025-09-09 06:24:21,751 - SentinelCapture - INFO - Connexion fermée: ('::1', 8053, 0, 0)
+2025-09-09 06:24:21,789 - SentinelCapture - ERROR - Erreur dans broadcast_data: <websockets.asyncio.server.ServerConnection object at 0x0000024CE610AEA0>
+2025-09-09 06:24:21,802 - websockets.server - INFO - connection open
+2025-09-09 06:24:21,811 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8058, 0, 0)
+2025-09-09 06:24:21,837 - SentinelCapture - INFO - Connexion fermée: ('::1', 8054, 0, 0)
+2025-09-09 06:24:21,890 - websockets.server - INFO - connection open
+2025-09-09 06:24:21,901 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8059, 0, 0)
+2025-09-09 06:24:21,907 - SentinelCapture - INFO - Connexion fermée: ('::1', 8055, 0, 0)
+2025-09-09 06:24:21,944 - websockets.server - INFO - connection open
+2025-09-09 06:24:21,959 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8060, 0, 0)
+2025-09-09 06:24:21,974 - SentinelCapture - INFO - Connexion fermée: ('::1', 8056, 0, 0)
+2025-09-09 06:24:21,996 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:22,021 - websockets.server - INFO - connection open
+2025-09-09 06:24:22,033 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8061, 0, 0)
+2025-09-09 06:24:22,046 - SentinelCapture - INFO - Connexion fermée: ('::1', 8058, 0, 0)
+2025-09-09 06:24:22,059 - websockets.server - INFO - connection open
+2025-09-09 06:24:22,076 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8062, 0, 0)
+2025-09-09 06:24:22,097 - websockets.server - INFO - connection open
+2025-09-09 06:24:22,114 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8063, 0, 0)
+2025-09-09 06:24:22,128 - SentinelCapture - INFO - Connexion fermée: ('::1', 8059, 0, 0)
+2025-09-09 06:24:22,146 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:22,173 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:22,191 - SentinelCapture - INFO - Connexion fermée: ('::1', 8060, 0, 0)
+2025-09-09 06:24:22,205 - websockets.server - INFO - connection open
+2025-09-09 06:24:22,207 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8064, 0, 0)
+2025-09-09 06:24:22,217 - SentinelCapture - INFO - Connexion fermée: ('::1', 8061, 0, 0)
+2025-09-09 06:24:22,238 - websockets.server - INFO - connection open
+2025-09-09 06:24:22,254 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8066, 0, 0)
+2025-09-09 06:24:22,279 - websockets.server - INFO - connection open
+2025-09-09 06:24:22,293 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8067, 0, 0)
+2025-09-09 06:24:22,298 - SentinelCapture - INFO - Connexion fermée: ('::1', 8062, 0, 0)
+2025-09-09 06:24:22,325 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:22,336 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:22,358 - SentinelCapture - INFO - Connexion fermée: ('::1', 8063, 0, 0)
+2025-09-09 06:24:22,372 - websockets.server - INFO - connection open
+2025-09-09 06:24:22,379 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8068, 0, 0)
+2025-09-09 06:24:22,385 - SentinelCapture - INFO - Connexion fermée: ('::1', 8064, 0, 0)
+2025-09-09 06:24:22,402 - websockets.server - INFO - connection open
+2025-09-09 06:24:22,412 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8069, 0, 0)
+2025-09-09 06:24:22,445 - websockets.server - INFO - connection open
+2025-09-09 06:24:22,459 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8070, 0, 0)
+2025-09-09 06:24:22,463 - SentinelCapture - INFO - Connexion fermée: ('::1', 8066, 0, 0)
+2025-09-09 06:24:22,470 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:22,496 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:22,520 - SentinelCapture - INFO - Connexion fermée: ('::1', 8067, 0, 0)
+2025-09-09 06:24:22,548 - websockets.server - INFO - connection open
+2025-09-09 06:24:22,555 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8071, 0, 0)
+2025-09-09 06:24:22,563 - SentinelCapture - INFO - Connexion fermée: ('::1', 8068, 0, 0)
+2025-09-09 06:24:22,573 - websockets.server - INFO - connection open
+2025-09-09 06:24:22,582 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8072, 0, 0)
+2025-09-09 06:24:22,613 - websockets.server - INFO - connection open
+2025-09-09 06:24:22,625 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8077, 0, 0)
+2025-09-09 06:24:22,628 - SentinelCapture - INFO - Connexion fermée: ('::1', 8069, 0, 0)
+2025-09-09 06:24:22,662 - SentinelCapture - INFO - Connexion fermée: ('::1', 8070, 0, 0)
+2025-09-09 06:24:22,671 - websockets.server - INFO - connection open
+2025-09-09 06:24:22,680 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8080, 0, 0)
+2025-09-09 06:24:22,687 - SentinelCapture - INFO - Connexion fermée: ('::1', 8071, 0, 0)
+2025-09-09 06:24:22,704 - SentinelCapture - ERROR - Erreur dans broadcast_data: <websockets.asyncio.server.ServerConnection object at 0x0000024CE61D55B0>
+2025-09-09 06:24:22,710 - websockets.server - INFO - connection open
+2025-09-09 06:24:22,728 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8081, 0, 0)
+2025-09-09 06:24:22,733 - SentinelCapture - INFO - Connexion fermée: ('::1', 8072, 0, 0)
+2025-09-09 06:24:22,761 - websockets.server - INFO - connection open
+2025-09-09 06:24:22,776 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8082, 0, 0)
+2025-09-09 06:24:22,788 - SentinelCapture - INFO - Connexion fermée: ('::1', 8077, 0, 0)
+2025-09-09 06:24:22,810 - websockets.server - INFO - connection open
+2025-09-09 06:24:22,823 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8084, 0, 0)
+2025-09-09 06:24:22,834 - SentinelCapture - INFO - Connexion fermée: ('::1', 8080, 0, 0)
+2025-09-09 06:24:22,852 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:22,881 - websockets.server - INFO - connection open
+2025-09-09 06:24:22,894 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8085, 0, 0)
+2025-09-09 06:24:22,901 - SentinelCapture - INFO - Connexion fermée: ('::1', 8081, 0, 0)
+2025-09-09 06:24:22,916 - websockets.server - INFO - connection open
+2025-09-09 06:24:22,929 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8086, 0, 0)
+2025-09-09 06:24:22,944 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:22,972 - websockets.server - INFO - connection open
+2025-09-09 06:24:22,984 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8087, 0, 0)
+2025-09-09 06:24:23,009 - SentinelCapture - INFO - Connexion fermée: ('::1', 8082, 0, 0)
+2025-09-09 06:24:23,036 - SentinelCapture - INFO - Connexion fermée: ('::1', 8084, 0, 0)
+2025-09-09 06:24:23,050 - websockets.server - INFO - connection open
+2025-09-09 06:24:23,053 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8088, 0, 0)
+2025-09-09 06:24:23,073 - SentinelCapture - ERROR - Erreur dans broadcast_data: <websockets.asyncio.server.ServerConnection object at 0x0000024CE6109350>
+2025-09-09 06:24:23,086 - websockets.server - INFO - connection open
+2025-09-09 06:24:23,102 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8089, 0, 0)
+2025-09-09 06:24:23,110 - SentinelCapture - INFO - Connexion fermée: ('::1', 8085, 0, 0)
+2025-09-09 06:24:23,142 - SentinelCapture - INFO - Connexion fermée: ('::1', 8086, 0, 0)
+2025-09-09 06:24:23,155 - websockets.server - INFO - connection open
+2025-09-09 06:24:23,165 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8090, 0, 0)
+2025-09-09 06:24:23,173 - SentinelCapture - INFO - Connexion fermée: ('::1', 8087, 0, 0)
+2025-09-09 06:24:23,195 - websockets.server - INFO - connection open
+2025-09-09 06:24:23,209 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8091, 0, 0)
+2025-09-09 06:24:23,276 - SentinelCapture - INFO - Connexion fermée: ('::1', 8088, 0, 0)
+2025-09-09 06:24:23,280 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:23,311 - websockets.server - INFO - connection open
+2025-09-09 06:24:23,339 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8093, 0, 0)
+2025-09-09 06:24:23,347 - SentinelCapture - INFO - Connexion fermée: ('::1', 8089, 0, 0)
+2025-09-09 06:24:23,354 - websockets.server - INFO - connection open
+2025-09-09 06:24:23,361 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8094, 0, 0)
+2025-09-09 06:24:23,379 - websockets.server - INFO - connection open
+2025-09-09 06:24:23,388 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8095, 0, 0)
+2025-09-09 06:24:23,396 - SentinelCapture - INFO - Connexion fermée: ('::1', 8090, 0, 0)
+2025-09-09 06:24:23,407 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:23,414 - SentinelCapture - INFO - Connexion fermée: ('::1', 8091, 0, 0)
+2025-09-09 06:24:23,440 - websockets.server - INFO - connection open
+2025-09-09 06:24:23,456 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8096, 0, 0)
+2025-09-09 06:24:23,465 - websockets.server - INFO - connection open
+2025-09-09 06:24:23,474 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8097, 0, 0)
+2025-09-09 06:24:23,487 - websockets.server - INFO - connection open
+2025-09-09 06:24:23,511 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8098, 0, 0)
+2025-09-09 06:24:23,534 - SentinelCapture - INFO - Connexion fermée: ('::1', 8093, 0, 0)
+2025-09-09 06:24:23,553 - SentinelCapture - INFO - Connexion fermée: ('::1', 8094, 0, 0)
+2025-09-09 06:24:23,563 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:23,586 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:23,591 - SentinelCapture - INFO - Connexion fermée: ('::1', 8095, 0, 0)
+2025-09-09 06:24:23,598 - websockets.server - INFO - connection open
+2025-09-09 06:24:23,617 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8100, 0, 0)
+2025-09-09 06:24:23,625 - SentinelCapture - INFO - Connexion fermée: ('::1', 8096, 0, 0)
+2025-09-09 06:24:23,664 - websockets.server - INFO - connection open
+2025-09-09 06:24:23,674 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8104, 0, 0)
+2025-09-09 06:24:23,705 - websockets.server - INFO - connection open
+2025-09-09 06:24:23,722 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8105, 0, 0)
+2025-09-09 06:24:23,726 - SentinelCapture - INFO - Connexion fermée: ('::1', 8097, 0, 0)
+2025-09-09 06:24:23,745 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:23,751 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:23,768 - SentinelCapture - INFO - Connexion fermée: ('::1', 8098, 0, 0)
+2025-09-09 06:24:23,773 - websockets.server - INFO - connection open
+2025-09-09 06:24:23,783 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8106, 0, 0)
+2025-09-09 06:24:23,789 - SentinelCapture - INFO - Connexion fermée: ('::1', 8100, 0, 0)
+2025-09-09 06:24:23,826 - websockets.server - INFO - connection open
+2025-09-09 06:24:23,828 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8107, 0, 0)
+2025-09-09 06:24:23,854 - websockets.server - INFO - connection open
+2025-09-09 06:24:23,859 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8108, 0, 0)
+2025-09-09 06:24:23,870 - SentinelCapture - INFO - Connexion fermée: ('::1', 8104, 0, 0)
+2025-09-09 06:24:23,898 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:23,913 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:23,926 - SentinelCapture - INFO - Connexion fermée: ('::1', 8105, 0, 0)
+2025-09-09 06:24:23,950 - websockets.server - INFO - connection open
+2025-09-09 06:24:23,978 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8109, 0, 0)
+2025-09-09 06:24:24,003 - SentinelCapture - INFO - Connexion fermée: ('::1', 8106, 0, 0)
+2025-09-09 06:24:24,018 - websockets.server - INFO - connection open
+2025-09-09 06:24:24,101 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('::1', 8110, 0, 0)
+2025-09-09 06:24:24,120 - SentinelCapture - INFO - Connexion fermée: ('::1', 8107, 0, 0)
+2025-09-09 06:24:24,188 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:24,388 - SentinelCapture - INFO - Connexion fermée: ('::1', 8108, 0, 0)
+2025-09-09 06:24:24,458 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:24:24,472 - SentinelCapture - INFO - Connexion fermée: ('::1', 8109, 0, 0)
+2025-09-09 06:27:27,079 - SentinelCapture - INFO - Arrêt de la capture...
+2025-09-09 06:27:27,104 - SentinelCapture - INFO - Fin de la capture de paquets
+2025-09-09 06:27:27,106 - SentinelCapture - INFO - Service arrêté.
+2025-09-09 06:27:27,107 - websockets.server - INFO - server closing
+2025-09-09 06:27:27,861 - SentinelCapture - INFO - Connexion fermée: ('::1', 8110, 0, 0)
+2025-09-09 06:27:27,862 - websockets.server - INFO - server closed
+2025-09-09 06:27:50,763 - SentinelCapture - INFO - Modèle chargé (factice pour la démo)
+2025-09-09 06:27:52,329 - SentinelCapture - INFO - Modèle factice créé pour la démonstration
+2025-09-09 06:27:52,356 - SentinelCapture - INFO - Démarrage du serveur WebSocket sur localhost:8765
+2025-09-09 06:27:52,357 - SentinelCapture - INFO - Démarrage de la capture sur l'interface: par défaut
+2025-09-09 06:27:52,358 - SentinelCapture - INFO - Filtre appliqué: net 192.168.0.0/16 or net 10.0.0.0/8 or net 172.16.0.0/12
+2025-09-09 06:27:52,359 - SentinelCapture - INFO - Début de la capture de paquets...
+2025-09-09 06:27:52,400 - websockets.server - INFO - server listening on [::1]:8765
+2025-09-09 06:27:52,402 - websockets.server - INFO - server listening on 127.0.0.1:8765
+2025-09-09 06:27:52,404 - SentinelCapture - INFO - Serveur WebSocket démarré
+2025-09-09 06:27:52,701 - websockets.server - INFO - connection open
+2025-09-09 06:27:52,716 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('127.0.0.1', 9260)
+2025-09-09 06:27:52,754 - websockets.server - INFO - connection open
+2025-09-09 06:27:52,762 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('127.0.0.1', 9261)
+2025-09-09 06:27:52,799 - websockets.server - INFO - connection open
+2025-09-09 06:27:52,813 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('127.0.0.1', 9252)
+2025-09-09 06:27:52,881 - websockets.server - INFO - connection open
+2025-09-09 06:27:52,884 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('127.0.0.1', 9244)
+2025-09-09 06:27:52,913 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:27:52,944 - SentinelCapture - INFO - Connexion fermée: ('127.0.0.1', 9261)
+2025-09-09 06:27:52,955 - SentinelCapture - INFO - Connexion fermée: ('127.0.0.1', 9252)
+2025-09-09 06:27:52,969 - SentinelCapture - ERROR - Erreur dans broadcast_data: <websockets.asyncio.server.ServerConnection object at 0x000001F95F92F390>
+2025-09-09 06:27:52,975 - SentinelCapture - INFO - Connexion fermée: ('127.0.0.1', 9244)
+2025-09-09 06:27:52,980 - websockets.server - INFO - connection open
+2025-09-09 06:27:52,993 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('127.0.0.1', 9264)
+2025-09-09 06:27:53,012 - SentinelCapture - INFO - Connexion fermée: ('127.0.0.1', 9260)
+2025-09-09 06:27:53,029 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:27:53,037 - websockets.server - INFO - connection open
+2025-09-09 06:27:53,046 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('127.0.0.1', 9265)
+2025-09-09 06:27:53,055 - SentinelCapture - INFO - Connexion fermée: ('127.0.0.1', 9264)
+2025-09-09 06:27:53,066 - SentinelCapture - INFO - Client déconnecté pendant broadcast
+2025-09-09 06:27:53,072 - SentinelCapture - INFO - Connexion fermée: ('127.0.0.1', 9265)
+2025-09-09 06:27:53,870 - websockets.server - INFO - connection open
+2025-09-09 06:27:53,873 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('127.0.0.1', 9271)
+2025-09-09 06:27:54,475 - SentinelCapture - INFO - Connexion fermée: ('127.0.0.1', 9271)
+2025-09-09 06:27:54,488 - websockets.server - INFO - connection open
+2025-09-09 06:27:54,490 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('127.0.0.1', 9276)
+2025-09-09 06:27:57,694 - websockets.server - ERROR - opening handshake failed
+Traceback (most recent call last):
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\http11.py", line 138, in parse
+    request_line = yield from parse_line(read_line)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\http11.py", line 309, in parse_line
+    line = yield from read_line(MAX_LINE_LENGTH)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\streams.py", line 46, in read_line
+    raise EOFError(f"stream ends after {p} bytes, before end of line")
+EOFError: stream ends after 0 bytes, before end of line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\server.py", line 545, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\http11.py", line 140, in parse
+    raise EOFError("connection closed while reading HTTP request line") from exc
+EOFError: connection closed while reading HTTP request line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2025-09-09 06:27:58,728 - websockets.server - ERROR - opening handshake failed
+Traceback (most recent call last):
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\http11.py", line 138, in parse
+    request_line = yield from parse_line(read_line)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\http11.py", line 309, in parse_line
+    line = yield from read_line(MAX_LINE_LENGTH)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\streams.py", line 46, in read_line
+    raise EOFError(f"stream ends after {p} bytes, before end of line")
+EOFError: stream ends after 0 bytes, before end of line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\server.py", line 545, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\http11.py", line 140, in parse
+    raise EOFError("connection closed while reading HTTP request line") from exc
+EOFError: connection closed while reading HTTP request line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2025-09-09 06:27:58,761 - websockets.server - ERROR - opening handshake failed
+Traceback (most recent call last):
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\http11.py", line 138, in parse
+    request_line = yield from parse_line(read_line)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\http11.py", line 309, in parse_line
+    line = yield from read_line(MAX_LINE_LENGTH)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\streams.py", line 46, in read_line
+    raise EOFError(f"stream ends after {p} bytes, before end of line")
+EOFError: stream ends after 0 bytes, before end of line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\server.py", line 545, in parse
+    request = yield from Request.parse(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.reader.read_line,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\http11.py", line 140, in parse
+    raise EOFError("connection closed while reading HTTP request line") from exc
+EOFError: connection closed while reading HTTP request line
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 356, in conn_handler
+    await connection.handshake(
+    ...<3 lines>...
+    )
+  File "C:\Users\Volonté Mukovi VD\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 207, in handshake
+    raise self.protocol.handshake_exc
+websockets.exceptions.InvalidMessage: did not receive a valid HTTP request
+2025-09-09 06:32:14,344 - SentinelCapture - INFO - Connexion fermée: ('127.0.0.1', 9276)
+2025-09-09 06:32:24,834 - websockets.server - INFO - connection open
+2025-09-09 06:32:24,873 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('127.0.0.1', 10746)
+2025-09-09 06:52:25,525 - SentinelCapture - INFO - Connexion fermée: ('127.0.0.1', 10746)
+2025-09-09 06:52:25,626 - SentinelCapture - ERROR - Erreur dans broadcast_data: <websockets.asyncio.server.ServerConnection object at 0x000001F95F99A190>
+2025-09-09 06:52:28,800 - websockets.server - INFO - connection open
+2025-09-09 06:52:28,820 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('127.0.0.1', 2779)
+2025-09-09 06:52:35,881 - websockets.server - INFO - connection open
+2025-09-09 06:52:35,912 - SentinelCapture - INFO - Nouvelle connexion WebSocket: ('127.0.0.1', 2784)
